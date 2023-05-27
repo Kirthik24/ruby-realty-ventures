@@ -11,7 +11,7 @@ function NavBar() {
         <div className="big-container">
           <div className="nav">
             <div className="logo">
-              <h1>RUBY</h1>
+              <img src="./image/logo.png" alt="" />
             </div>
 
             <ul className={toggleMenu ? "nav-elements show-nav" : "nav-elements"}>
