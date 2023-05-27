@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --primary-light: #8abdff;
+    --primary: #6d5dfc;
+    --primary-dark: #5b0eeb;
+    --white: #ffffff;
+    --greyLight-1: #e4ebf5;
+    --greyLight-2: #c8d0e7;
+    --greyLight-3: #bec8e4;
+    --greyDark: #9baacf;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.app{
+    margin: 0px;
+    padding: 0px;
+}
+
+.big-container{
+    width: 95%;
+    margin: auto;
+}
+
+.container{
+    width: 89%;
+    margin: auto;
+}
+
+.flex-c{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+}
+
+.orange-button{
+    width: 117px;
+    height: 50px;
+    background: linear-gradient(180deg, #F8AC75 0%, #E6660A 100%);
+    box-shadow: -6px -6px 16px rgba(255, 255, 255, 0.6), 4px 12px 32px rgba(244, 102, 0, 0.42);
+    border-radius: 16px;
+    border: 0px;
+}
+
+.white-button{
+    width: 117px;
+    height: 50px;
+    background: #F8FBFF;
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 12px rgba(136, 165, 191, 0.54);
+    border-radius: 16px;
+    border: 0px;
+}

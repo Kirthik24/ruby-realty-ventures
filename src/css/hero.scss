@@ -1,0 +1,18 @@
+.hero{
+    height: 92vh;
+    background: url("../assets/bg-4.png");
+    background-size: cover;
+    overflow: hidden;
+
+    .container{
+        h1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 82px;
+            color: #FFFFFF;
+        }
+    }
+    
+}
