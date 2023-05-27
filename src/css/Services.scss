@@ -6,11 +6,14 @@
         grid-gap: 25px;
     }
     .s-card{
+
         width: 100%;
         height: 100%;
         background: #FFFFFF;
         box-shadow: 8px 10px 20px 1px rgba(152, 152, 152, 0.16);
         border-radius: 5px;
+
+        transition-duration: 0.3s;
 
         display: flex;
         flex-direction: column;
@@ -18,9 +21,13 @@
         align-items: center;
 
         img{
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
             border-radius: 50%;
+            object-fit: cover;
+            /* Circlle/Shadow 2 - Small Circle */
+            box-shadow: 5px 7px 16px 1px rgba(134, 134, 134, 0.16);
+
         }
 
         h4{
@@ -47,7 +54,16 @@
     }
 
     .s-card:hover{
-        box-shadow: 8px 10px 20px 1px rgba(96, 188, 253, 0.298);
+        
+        box-shadow: 12px 14px 24px 5px rgba(152, 152, 152, 0.295);
+        transform: translateY(-10px);
+
+        img{
+            box-shadow:
+                0 0 50px #fff,            /* outer white */
+                -10px 0 50px rgba(255, 230, 0, 0.723),        /* outer left magenta */
+                10px 0 50px rgba(0, 255, 255, 0.743);         /* outer right cyan */
+        }
 
     }
     

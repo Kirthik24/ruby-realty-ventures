@@ -8,8 +8,9 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-main">
         <div className="list-of-data">
-        <h4>Ruby</h4>
-
+        <div className="logo">
+          <img src="./image/logo-white.png" alt="" />
+        </div>
         </div>
 
         <div className="list-of-data">
