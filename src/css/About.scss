@@ -26,14 +26,15 @@
     img{
         width: 40%;
         height: 100%;
-        object-fit: contain;
+        object-fit: cover;
         border-radius: 10px;
     }
 
     .about-box{
         display: flex;
-        align-items: start;
-
+        align-items: center;
+        height: fit-content;
+        margin-bottom: 50px;
         .text{
             margin-left: 25px;
             
@@ -43,7 +44,7 @@
 }
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1000px){
     .about{
         height: fit-content;
         h2{
