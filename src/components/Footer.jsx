@@ -17,7 +17,7 @@ const Footer = () => {
           <h4>Quick Links</h4>
             {nav.map((list, index)=>(
               <div className="links">
-                <NavLink to={list.path}>{list.text}</NavLink> 
+                <a href={list.path}>{list.text}</a>
               </div>
             ))}
         </div>
@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
 
       <hr />
-      <h6>2022 .All Right Reserved</h6>
+      <h6>KR | 2023 All Right Reserved</h6>
     </div>
   )
 }

@@ -10,9 +10,9 @@ import "./css/App.scss"
 
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer";
-import Main from "./pages/Main";
-import Home
- from "./pages/Home";
+import Home from "./pages/Home";
+import About from "./components/About";
+
 const Layout = () => {
   return(
     <>
@@ -33,6 +33,10 @@ const router = createBrowserRouter([
         element: <Home/>
       },
     ]
+  },
+  {
+    path: "/about",
+    component : {About}
   }
 ]);
 

@@ -17,7 +17,7 @@ function NavBar() {
             <ul className={toggleMenu ? "nav-elements show-nav" : "nav-elements"}>
               {nav.map((list, index)=>(
                 <li key={index}>
-                  <NavLink to={list.path}>{list.text}</NavLink>
+                  <a href={list.path}>{list.text}</a>
                 </li>
               ))}
 
@@ -30,7 +30,8 @@ function NavBar() {
             <rect width="100" height="15"></rect>
             <rect y="25" width="100" height="15"></rect>
             <rect y="50" width="100" height="15"></rect>
-          </svg></button>
+          </svg>
+          </button>
           </div>
         </div>
       </div>

@@ -7,9 +7,9 @@ import Services from '../components/Services'
 const Home = () => {
   return (
     <div className="home">
-      <Hero/>
-      <About/>
-      <Services/>
+      <section id = ""><Hero/></section>
+      <section id = "about"><About/></section>
+      <section id = "services"><Services/></section>
     </div>
   )
 }

@@ -1,19 +1,19 @@
 export const nav = [
     {
       text: "Home",
-      path: "/about",
+      path: "/",
     },
     {
       text: "About",
-      path: "/about",
+      path: "/#about",
     },
     {
       text: "Projects",
-      path: "/about",
+      path: "/#projects",
     },
     {
       text: "Services",
-      path: "/services",
+      path: "/#services",
     },
 ]
 export const services = [
@@ -24,17 +24,17 @@ export const services = [
   },
   {
     icon: "./image/s2.png",
-    heading: "House & Villa",
+    heading: "Buy",
     belowtext: "155 Property",
   },
   {
     icon: "./image/s3.png",
-    heading: "Apartment",
+    heading: "Rent",
     belowtext: "300 Property",
   },
   {
     icon: "./image/s4.png",
-    heading: "Office & Studio",
+    heading: "Sell",
     belowtext: "80 Property",
   },
 ]
