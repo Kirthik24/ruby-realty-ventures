@@ -1,0 +1,23 @@
+* , ::after , ::before , ::placeholder {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@mixin mobile {
+  @media (max-width: 650px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 960px) {
+    @content;
+  }
+}
+@mixin mid-lap {
+  @media (max-width: 1250px) {
+    @content;
+  }
+}

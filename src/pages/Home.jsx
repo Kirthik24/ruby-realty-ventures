@@ -3,6 +3,7 @@ import "../css/home.scss"
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Services from '../components/Services'
+import OurProjects from '../components/OurProjects'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <section id = ""><Hero/></section>
       <section id = "about"><About/></section>
       <section id = "services"><Services/></section>
+      <section id = "projects"><OurProjects/></section>
     </div>
   )
 }

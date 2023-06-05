@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../css/navbar.scss";
 
 import { nav } from "../data/data.js"
@@ -17,7 +17,7 @@ function NavBar() {
             <ul className={toggleMenu ? "nav-elements show-nav" : "nav-elements"}>
               {nav.map((list, index)=>(
                 <li key={index}>
-                  <a href={list.path}>{list.text}</a>
+                  <Link href={list.path}>{list.text}</Link>
                 </li>
               ))}
 

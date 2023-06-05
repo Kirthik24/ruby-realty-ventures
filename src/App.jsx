@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./components/About";
+import SingleProject from "./components/SingleProject";
 
 const Layout = () => {
   return(
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
         path:"/",
         element: <Home/>
       },
+      {
+        path: "/singleproject/:id",
+        element: <SingleProject/>
+      }
     ]
   },
   {
