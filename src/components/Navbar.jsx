@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "../css/navbar.scss";
 
+import { HashLink } from 'react-router-hash-link';
+
 import { nav } from "../data/data.js"
 
 function NavBar() {
@@ -17,7 +19,12 @@ function NavBar() {
             <ul className={toggleMenu ? "nav-elements show-nav" : "nav-elements"}>
               {nav.map((list, index)=>(
                 <li key={index}>
-                  <Link href={list.path}>{list.text}</Link>
+                  <HashLink
+                    to={list.path}
+                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                  >
+                    {list.text}
+                  </HashLink>
                 </li>
               ))}
 

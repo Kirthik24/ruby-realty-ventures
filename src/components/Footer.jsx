@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../css/Footer.scss"
 import {nav} from "../data/data"
+import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
   return (
@@ -17,7 +18,12 @@ const Footer = () => {
           <h4>Quick Links</h4>
             {nav.map((list, index)=>(
               <div className="links">
-                <a href={list.path}>{list.text}</a>
+                <HashLink
+                    to={list.path}
+                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                  >
+                  {list.text}
+                  </HashLink>
               </div>
             ))}
         </div>
