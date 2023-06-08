@@ -9,7 +9,7 @@ import { nav } from "../data/data.js"
 function NavBar() {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
-      <div className="navbar">
+      <div className="navbar" id="#navbar">
         <div className="big-container">
           <div className="nav">
             <div className="logo">
@@ -21,14 +21,20 @@ function NavBar() {
                 <li key={index}>
                   <HashLink
                     to={list.path}
-                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: `${list.scrollpos}` })}
                   >
                     {list.text}
                   </HashLink>
                 </li>
               ))}
 
-              <li><button className="white-button">Contact</button></li>
+              <li><button className="white-button"><HashLink
+                    to={"#footer"}
+                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}
+                  >
+                    {"Contact"}
+                  </HashLink>
+                  </button></li>
             </ul>
              
             <button className="toggle-button" onClick={()=>{

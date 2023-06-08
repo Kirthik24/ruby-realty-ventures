@@ -6,7 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <div className="footer-main">
         <div className="list-of-data">
         <div className="logo">
@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="list-of-data">
             <h4>Contact Us</h4>
             <h5>+91 9894209390</h5>
-            <h5>rangaraj@gmail.com</h5>
+            <h5>+91 8838567738</h5>
         </div>
       </div>
 

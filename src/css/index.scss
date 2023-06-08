@@ -16,6 +16,7 @@
     @content;
   }
 }
+
 @mixin mid-lap {
   @media (max-width: 1250px) {
     @content;

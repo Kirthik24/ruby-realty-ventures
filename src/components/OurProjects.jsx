@@ -11,7 +11,9 @@ const OurProjects = () => {
             projects.map((project, index)=>(
                 <div className="project-card" onClick={()=>navigate(`/singleproject/${project.project_id}`)} key = {index}>
                     <img src={project.images[0]} />
-                    <h4>{project.project_name}</h4>
+                    <div className="details">
+                        <h4>{project.project_name}</h4>
+                    </div>
                 </div>
             ))
         }

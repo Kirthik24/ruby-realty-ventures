@@ -1,6 +1,30 @@
 @import "./index.scss";
 
 .services{
+
+    h5{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #0061E0;
+        text-align: center;
+    }
+
+    h2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 82px;
+        letter-spacing: -0.03em;
+        text-transform: capitalize;
+        color: #0D263B;
+        text-align: center;
+        margin-bottom: 20px;
+    }
     .service-cards{
         display: grid;
         grid-template-columns: repeat(auto-fit, 250px);

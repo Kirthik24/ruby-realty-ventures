@@ -8,7 +8,7 @@ import OurProjects from '../components/OurProjects'
 const Home = () => {
   return (
     <div className="home">
-      <section id = ""><Hero/></section>
+      <section id = "hero"><Hero/></section>
       <section id = "about"><About/></section>
       <section id = "services"><Services/></section>
       <section id = "projects"><OurProjects/></section>

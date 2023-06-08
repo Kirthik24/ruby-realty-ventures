@@ -12,6 +12,10 @@
         justify-content: space-around;        
     }
 
+    .list-of-data{
+        margin-top: 15px;
+    }
+
 
     .logo{
         img{
@@ -39,6 +43,7 @@
         font-size: 22px;
         line-height: 28px;
         color: #FAFAFA;
+        margin-bottom: 10px;
     }
 
     h5{
@@ -91,6 +96,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        margin-left: 25px;   
+        margin-left: 25px;
     }
 }

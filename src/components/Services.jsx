@@ -5,6 +5,8 @@ const Services = () => {
   return (
     <div className="services">
         <div className="container">
+            <h5>OUR SERVICES</h5>
+            <h2>Our Main Focus</h2>
             <div className="service-cards">
                 {services.map((list, index)=>(
                     <div className="s-card" key = {index}>
