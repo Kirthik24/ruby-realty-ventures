@@ -13,15 +13,17 @@ function NavBar() {
         <div className="big-container">
           <div className="nav">
             <div className="logo">
-              <img src="./image/logo.png" alt="" />
+              <img src="/image/logo.png" alt="" />
             </div>
 
             <ul className={toggleMenu ? "nav-elements show-nav" : "nav-elements"}>
               {nav.map((list, index)=>(
                 <li key={index}>
                   <HashLink
+                    onClick={()=>{setToggleMenu(false)}}
                     to={list.path}
-                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: `${list.scrollpos}` })}
+                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: `${list.scrollpos}` 
+                    })}
                   >
                     {list.text}
                   </HashLink>
@@ -29,6 +31,7 @@ function NavBar() {
               ))}
 
               <li><button className="white-button"><HashLink
+                    onClick={()=>{setToggleMenu(false)}}
                     to={"#footer"}
                     scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}
                   >

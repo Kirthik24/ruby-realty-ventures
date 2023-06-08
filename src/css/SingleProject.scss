@@ -1,0 +1,55 @@
+@import "./index.scss";
+
+
+.singleproject{
+   img{
+        display: block;
+        width: 85%;
+        margin: auto;
+        border-radius: 5px;
+        object-fit: contain;
+        margin-bottom: 20px;
+
+        @include mid-lap{
+            width: 100%;
+        }
+   }
+
+   
+
+   h5{
+        margin-bottom: 10px;
+   }
+
+   p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2e2f30;
+    text-align: justify;
+   }
+
+   .icon-data{
+    height: fit-content;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    h4{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: -0.03em;
+        text-transform: capitalize;
+        color: #0D263B;
+        margin: 0px;
+    }
+   }
+
+   .image{
+    margin-top: 20px;
+   }
+}
