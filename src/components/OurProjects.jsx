@@ -6,7 +6,10 @@ import { useNavigate } from "react-router-dom";
 const OurProjects = () => {
     const navigate = useNavigate();
   return (
-    <div className="projects container">
+    <div className="container">
+        <div className="projects-container">
+        <h5>CURRENT PROJECTS</h5>
+        <div className="projects">
         {
             projects.map((project, index)=>(
                 <div className="project-card" onClick={()=>navigate(`/singleproject/${project.project_id}`)} key = {index}>
@@ -17,6 +20,8 @@ const OurProjects = () => {
                 </div>
             ))
         }
+        </div>
+        </div>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 .hero{
-    height: 92vh;
+    height: calc(100vh - 70px);
     background: url("../assets/bg-4.png");
     background-size: cover;
     overflow: hidden;

@@ -32,7 +32,7 @@ function NavBar() {
                     to={"#footer"}
                     scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}
                   >
-                    {"Contact"}
+                    Contact
                   </HashLink>
                   </button></li>
             </ul>

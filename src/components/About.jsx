@@ -7,8 +7,8 @@ const About = () => {
         <div className="about-box container">
             <img src={aboutimg} />
             <div className="text">
-                <h2>We're on a Mission to Change
-                View of Real Estate Field.</h2>
+                <h3>We're on a Mission to Change
+                View of Real Estate Field.</h3>
                 <p>
                     Ruby Realty Ventures is not just about building homes, workspaces, and retail spaces. 
                     It is a way of thinking and creating. Rooted in a development legacy of over a decade, 
