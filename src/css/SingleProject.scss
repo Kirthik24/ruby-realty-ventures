@@ -2,17 +2,18 @@
 
 
 .singleproject{
-   img{
-        display: block;
-        width: 85%;
+    width: 85%;
+    margin: auto;
+    
+    @include mid-lap{
+        width: 100%;
+    }
+   img{       
+        width: 100%; 
         margin: auto;
         border-radius: 5px;
         object-fit: contain;
         margin-bottom: 20px;
-
-        @include mid-lap{
-            width: 100%;
-        }
    }
 
    
@@ -22,12 +23,6 @@
    }
 
    p{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #2e2f30;
     text-align: justify;
    }
 

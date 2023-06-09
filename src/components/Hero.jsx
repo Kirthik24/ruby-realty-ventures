@@ -5,8 +5,10 @@ const Hero = () => {
   return (
     <div className="hero">
         <div className="container">
-        <h1>Build Your 
-          <br/>Dream Property</h1>
+        <h1>
+         RUBY REALTY VENTURES
+        </h1>
+        <h4>Build Your Dream Property</h4>
         </div>
     </div>
   )

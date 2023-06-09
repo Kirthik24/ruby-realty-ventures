@@ -13,8 +13,7 @@
     width: 100%;
     height: 70px;
     display: flex;
-    align-items: center;
-      
+    align-items: center; 
     justify-content: space-between;
 
     .logo{
@@ -63,7 +62,7 @@
             right: 0;
             width: 50%;
             height: 100vh;
-            background: rgba(241, 241, 241, 0.853);
+            background: rgb(241, 241, 241);
             padding: 20px;
             li{
                 margin-bottom: 20px;

@@ -22,12 +22,12 @@ export const nav = [
 ]
 export const services = [
   {
-    icon: "/image/s1.png" ,
+    icon: "/image/bs1.png" ,
     heading: "Build",
     belowtext: "Our expertise lies in construction services, delivering exceptional quality and craftsmanship.",
   },
   {
-    icon: "/image/s2.png",
+    icon: "/image/bs2.png",
     heading: "Buy",
     belowtext: "Our property buying services offer expert guidance and support throughout the entire process. ",
   },
@@ -37,7 +37,7 @@ export const services = [
   //   belowtext: "300 Property",
   // },
   {
-    icon: "/image/s4.png",
+    icon: "/image/bs3.png",
     heading: "Sell",
     belowtext: "We work closely with you to market and showcase your property effectively, attracting qualified buyers. ",
   },
