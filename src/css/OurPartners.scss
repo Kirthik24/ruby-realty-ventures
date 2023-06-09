@@ -1,0 +1,98 @@
+@import "./index.scss";
+
+
+.partners-container{
+    margin-top: 50px;
+
+    h5{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .partners{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 400px); 
+        justify-content: center;
+        gap: 20px;
+    
+        @include tablet {
+            grid-template-columns: repeat(auto-fit, 340px); 
+            flex-direction: column;
+        }
+    
+        
+    
+        .partner-card{
+            width: 400px;
+            height: 160px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+            background-size: cover;
+            box-shadow: 8px 10px 20px 1px rgba(152, 152, 152, 0.16);
+            border-radius: 16px;
+            transition-duration: 0.3s;
+            cursor: pointer;
+
+            @include tablet{
+                width: 340px;
+            }
+    
+           
+            
+            img{
+                width: 80px;
+                height: 80px;
+                margin-left: 10px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 3px solid white;
+                box-shadow: 5px 7px 16px 1px rgba(101, 99, 99, 0.16);
+            }
+
+            .details{
+                width: 70%;
+                height: 80%;
+                border-radius: 16px;
+                background: white;
+                box-shadow: 8px 10px 20px 1px rgba(152, 152, 152, 0.16);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+
+                h5{
+                    color: black;
+                    margin: 0px;
+                }
+
+                h7{
+                    font-family: "Poppins";
+                    margin: 0px;
+                    text-align: center;
+                    font-size: 16px;
+                    @include tablet{
+                        font-size: 15px;
+                    }
+                }
+
+                h8{
+                    font-family: "Poppins";
+                    margin: 0px;
+                    text-align: center;
+                    font-size: 15px;
+                    @include tablet{
+                        font-size: 14px;
+                    }
+                }
+
+    
+            }
+        }
+        .partner-card:hover{
+            box-shadow: 12px 14px 24px 5px rgba(152, 152, 152, 0.295);
+        }
+    }
+}
