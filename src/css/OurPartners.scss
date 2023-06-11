@@ -24,6 +24,18 @@
             grid-template-columns: repeat(auto-fit, 340px); 
             flex-direction: column;
         }
+
+
+        p{
+            font-family: 'Orbitron';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 22px;
+            color: #7C8893;
+            text-align: center;
+            letter-spacing: 1.5px;
+        }
     
         
     
@@ -111,6 +123,7 @@
         }
         .partner-card:hover{
             box-shadow: 12px 14px 24px 5px rgba(152, 152, 152, 0.295);
+            
         }
     }
 }

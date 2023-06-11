@@ -16,11 +16,30 @@
         margin-bottom: 20px;
    }
 
+   .google-map{
+        width: 100%;
+        margin: auto;
+        aspect-ratio: 16/9;
+       
+
+        iframe{
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+
+
+        @include tablet{
+            aspect-ratio: 16/10;
+        }
+   }
+
    
 
    h5{
+        margin-top: 10px;
         margin-bottom: 10px;
-   }
+    }
 
    p{
     text-align: justify;
@@ -44,7 +63,28 @@
     }
    }
 
+   ul {
+    
+    list-style: none; /* Remove default bullets */
+  }
+
+  li{
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  ul li:before {
+    content: "•";
+    font-size: 30px;
+    color: #0061E0;
+    padding-right: 12px;
+    align-self:flex-start;
+    line-height: 27px;
+    }
+
    .image{
     margin-top: 20px;
    }
+
+
 }

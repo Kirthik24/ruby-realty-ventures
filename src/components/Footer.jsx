@@ -11,6 +11,11 @@ const Footer = () => {
         <div className="list-of-data">
         <div className="logo">
           <img src="/image/logo-white.png" alt="" />
+          <div className="list-of-data">
+          <h2>RUBY REALTY VENTURES</h2>
+          <h3>131, 100 Feet Road, 1st Floor, R.K.P. Plaza,</h3>
+          <h3>Gandhipuram, Coimbatore - 641 012</h3>
+          </div>
         </div>
         </div>
 

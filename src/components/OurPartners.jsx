@@ -20,7 +20,10 @@ const OurPartners = () => {
                         <h8>{partner.company}</h8>
                         </div>
                     </div>
-                </div></a>
+                </div>
+                    <p>CLICK TO CONNECT</p>
+                </a>
+                    
                     
                 ))}
             </div>
