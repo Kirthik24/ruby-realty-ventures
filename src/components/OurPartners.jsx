@@ -11,11 +11,14 @@ const OurPartners = () => {
                 {partners.map((partner, index)=>(
                     <a href={partner.link} target='block'>
                     <div className="partner-card" key={index}>
-                    <img src={partner.image} alt="" />
                     <div className="details">
+                        <img src={partner.image} alt="" />
+                        <hr />
+                        <div className="flex-c">
                         <h5>{partner.partner_type}</h5>
                         <h7>{partner.name}</h7>
                         <h8>{partner.company}</h8>
+                        </div>
                     </div>
                 </div></a>
                     

@@ -4,6 +4,11 @@
 .partners-container{
     margin-top: 50px;
 
+
+    .flex-c{
+        gap: 5px;
+    }
+
     h5{
         text-align: center;
         margin-bottom: 20px;
@@ -44,8 +49,8 @@
            
             
             img{
-                width: 80px;
-                height: 80px;
+                width: 65px;
+                height: 65px;
                 margin-left: 10px;
                 border-radius: 50%;
                 object-fit: cover;
@@ -53,21 +58,32 @@
                 box-shadow: 5px 7px 16px 1px rgba(101, 99, 99, 0.16);
             }
 
+
+
             .details{
-                width: 70%;
+                width: 90%;
                 height: 80%;
                 border-radius: 16px;
                 background: white;
                 box-shadow: 8px 10px 20px 1px rgba(152, 152, 152, 0.16);                
 
                 display: flex;
-                flex-direction: column;
                 align-items: center;
                 justify-content: space-evenly;
+
+                hr{
+                    height: 50%;
+                    width: 0.5px;
+                    color: #000;
+                    border: 0.5px solid black;
+                }
 
                 h5{
                     color: black;
                     margin: 0px;
+                    @include tablet{
+                        font-size: 16px;
+                    }
                 }
 
                 h7{
@@ -86,7 +102,7 @@
                     text-align: center;
                     font-size: 15px;
                     @include tablet{
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                 }
 
