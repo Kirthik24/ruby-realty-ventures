@@ -109,13 +109,38 @@
 
     .footer{
         height: fit-content;
+
+        .footer-main{
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 25px;
+        }
+
+        .logo{
+            img{
+                width: 70px;
+                height: 70px;
+                object-fit: contain;
+            }
+        }
+        h4{
+            font-size: 19px;
+        }
+    
+        h5{
+            font-size: 14px;
+        }
+    
+        h2{
+            font-size: 14px;
+        }
+    
+        h3{
+            font-size: 11px;
+        }
     }
     
-    .footer-main{
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-left: 25px;
-    }
+   
 }
