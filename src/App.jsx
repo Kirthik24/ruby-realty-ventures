@@ -14,10 +14,11 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./components/About";
 import SingleProject from "./components/SingleProject";
-
+import ScrollToTop from "./pages/ScrollToTop";
 const Layout = () => {
   return(
     <>
+      <ScrollToTop/>
       <Navbar/>
       <Outlet/>
       <Footer/>
@@ -49,6 +50,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="app">
+    
         <RouterProvider router={router} />
     </div>
   );

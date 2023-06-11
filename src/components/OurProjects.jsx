@@ -29,6 +29,7 @@ const OurProjects = () => {
                         <h8>{project.sqft}</h8>
                         </div>
                     </div>
+                    <button className='blue-button'>Know More  →</button>
                 </div>
             ))
         }

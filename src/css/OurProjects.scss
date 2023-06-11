@@ -23,7 +23,7 @@
     
         .project-card{
             width: 260px;
-            height: 300px;
+            height: fit-content;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
@@ -40,6 +40,12 @@
                 border-radius: 16px 16px 0px 0px;
                 object-fit: cover;
                 margin: 0px;
+            }
+
+            .blue-button{
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 20px;
             }
     
             .details{
@@ -84,6 +90,11 @@
         .project-card:hover{
             box-shadow: 12px 14px 24px 5px rgba(152, 152, 152, 0.295);
             transform: translateY(-10px);
+            .blue-button{
+                transform: translateY(-2px);
+                background: #0061E0;
+                color: #FFFFFF;
+            }
         }
     }
 }
