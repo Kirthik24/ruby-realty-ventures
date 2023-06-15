@@ -9,9 +9,16 @@
         width: 100%;
         height: 100%;
         justify-content: space-between;
+
         .text{
             margin-left: 10%;
             margin-top: 30px;
+        }
+
+        @include tablet{
+            .text{
+                margin-top: 0px;
+            }
         }
 
         .hero-img{
@@ -25,7 +32,7 @@
 
             @include tablet{
                 background-size:contain ;
-                height: 40%;
+                height: 50%;
             }
         }
 
