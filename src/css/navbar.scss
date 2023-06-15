@@ -11,6 +11,10 @@
     padding-top: 35px;
     width: 80%;
     margin: 0px auto;
+    @include tablet{
+        width: 90%;
+    }
+
 }
 
 .nav{
