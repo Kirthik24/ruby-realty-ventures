@@ -12,8 +12,10 @@ const SingleProject = () => {
     let { id } = useParams();
     const project = projects[id-1];
   return (
-    <div className="container">
+    <>
+  
       <NavBar/>
+    <div className="container">
       <div className="singleproject">
 
         <h2>{project.project_name}</h2> 
@@ -73,6 +75,7 @@ const SingleProject = () => {
         ))}
       </div>
     </div>
+    </>
   )
 }
 
