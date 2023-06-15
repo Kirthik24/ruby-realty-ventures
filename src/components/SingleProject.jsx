@@ -7,12 +7,13 @@ import {
 } from "react-router-dom";
 import { projects } from "../data/data";
 import "../css/SingleProject.scss"
-
+import NavBar from './Navbar'
 const SingleProject = () => {
     let { id } = useParams();
     const project = projects[id-1];
   return (
     <div className="container">
+      <NavBar/>
       <div className="singleproject">
 
         <h2>{project.project_name}</h2> 

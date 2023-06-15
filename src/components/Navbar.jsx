@@ -6,11 +6,11 @@ import { HashLink } from 'react-router-hash-link';
 
 import { nav } from "../data/data.js"
 
+
 function NavBar() {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
       <div className="navbar" id="#navbar">
-        <div className="big-container">
           <div className="nav">
             <div className="logo">
               <img src="/image/logo.png" alt="" />
@@ -48,8 +48,7 @@ function NavBar() {
             <rect y="50" width="100" height="15"></rect>
           </svg>
           </button>
-          </div>
-        </div>
+          </div>  
       </div>
     );
   }

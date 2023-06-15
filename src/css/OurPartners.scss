@@ -40,6 +40,7 @@
         
     
         .partner-card{
+           
             width: 400px;
             height: 160px;
             display: flex;
@@ -83,6 +84,8 @@
                 align-items: center;
                 justify-content: space-evenly;
 
+                transition-duration: 0.3s;
+
                 hr{
                     height: 50%;
                     width: 0.5px;
@@ -123,7 +126,9 @@
         }
         .partner-card:hover{
             box-shadow: 12px 14px 24px 5px rgba(152, 152, 152, 0.295);
-            
+            .details{
+                width: 92%;
+            }
         }
     }
 }

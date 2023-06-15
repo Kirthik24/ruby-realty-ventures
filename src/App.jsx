@@ -19,7 +19,6 @@ const Layout = () => {
   return(
     <>
       <ScrollToTop/>
-      <Navbar/>
       <Outlet/>
       <Footer/>
     </>
