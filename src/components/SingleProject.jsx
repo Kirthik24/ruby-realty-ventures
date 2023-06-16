@@ -52,14 +52,14 @@ const SingleProject = () => {
 
         <ul>
         {project.amenities.map((amenity, index)=>(
-          <li><p>{amenity}</p></li>
+          <li key={index}><p>{amenity}</p></li>
         ))}
         </ul>
 
         <br />
         <h5>LOCATION</h5>
-        <div class="google-map">
-        <iframe src={project.locationlink} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div className="google-map">
+        <iframe src={project.locationlink} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
           
 
