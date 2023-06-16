@@ -4,17 +4,20 @@ import NavBar from './Navbar'
 const Hero = () => {
   return (
     <>
-    <div className="hero">
           <NavBar/>
-          <div className="hero-content">
+    <div className="hero">
+          <div className="hero-content container">
             <div className="text">
               <h1>
-              RUBY REALTY VENTURES
+              RUBY 
+              <br /> REALTY 
+              <br />
+              VENTURES
               </h1>
               <h4>Build Your Dream Property</h4>
             </div>
             
-            <img className= "hero-img" src="\image\house-cutout-2.png" alt="" />
+            {/* <img className= "hero-img" src="\image\hero-4.jpg" alt="" /> */}
         </div>
     </div>
     </>
