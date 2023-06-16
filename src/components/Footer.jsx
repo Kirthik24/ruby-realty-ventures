@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="list-of-data">
           <h4>Quick Links</h4>
             {nav.map((list, index)=>(
-              <div className="links">
+              <div className="links" key={index}>
                 <HashLink
                     to={list.path}
                     scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
